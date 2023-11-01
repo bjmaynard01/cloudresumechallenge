@@ -38,10 +38,10 @@
       background-color:rgba(0,0,0,.75);
       border-right:1px solid rgba(0,0,0,.05);
       border-radius: 5px;
-      float:right;
+      float:left;
       height:100%;
       margin-left:-1px;
-      min-width:256px;
+      width:25%;
       position:fixed;
       width:33.33%;
     
@@ -71,7 +71,7 @@
   
   .me-img
   {
-      background:url(me.jpg) no-repeat center center ;
+      background:url("me.jpg") no-repeat center center ;
       background-size:100%;
       background-position:0px;
       border-radius:100%;
@@ -144,9 +144,23 @@
       font-style:normal;
   }
   
+  .bullet
+  {
+    color:rgba(0,0,0,.50);
+    list-style-type: disc;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-left:40px;
+  }
+
+  .bullet-heading
+  {
+    margin-bottom: 0px;
+  }
+
   .inner section
   {
-      margin:50px auto;
+      margin:25px auto;
   }
   
   ul
@@ -155,6 +169,16 @@
       margin-top:-10px;
       max-width:570px;
       padding:0;
+  }
+
+  a
+  {
+    color:rgba(0, 0, 50, 1);
+  }
+
+  a:hover
+  {
+    color:#3498db
   }
   
   .skill-set li
@@ -181,6 +205,7 @@
     text-align:center !important;
     margin-top:0px !important;
   }
+}
   
   @media screen and (max-width: 75em) {
       body
