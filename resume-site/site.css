@@ -50,10 +50,11 @@
   
   .right
   {
-      float:right;
+      float:left;
+      margin-left:10%;
       height:100%;
-      position:relative;
-      width:75%;
+      position:absolute;
+      width:100%;
   }
   
   
@@ -64,7 +65,7 @@
       height:290px;
       left:0;
       margin:auto;
-      position:absolute;
+      position:static;
       right:0;
       top:0;
       width:85%;
